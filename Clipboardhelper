@@ -1,0 +1,30 @@
+// Decompiled with JetBrains decompiler
+// Type: ClipboardHelper.ClipboardFormat
+
+namespace ClipboardHelper
+{
+  public enum ClipboardFormat : byte
+  {
+    Text,
+    UnicodeText,
+    Dib,
+    Bitmap,
+    EnhancedMetafile,
+    MetafilePict,
+    SymbolicLink,
+    Dif,
+    Tiff,
+    OemText,
+    Palette,
+    PenData,
+    Riff,
+    WaveAudio,
+    FileDrop,
+    Locale,
+    Html,
+    Rtf,
+    CommaSeparatedValue,
+    StringFormat,
+    Serializable,
+  }
+}
